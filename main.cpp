@@ -45,11 +45,12 @@ int main()
     while (true)
     {
         printMenu();
-        int choice;
+        char choice;
+        cout << "Enter your choice: ";
         cin >> choice;
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear input buffer
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
 
-        if (choice == 1)
+        if (choice == '1')
         {
             string input;
             cout << "Enter prefix: ";
@@ -72,7 +73,7 @@ int main()
                 }
             }
         }
-        else if (choice == 2)
+        else if (choice == '2')
         {
             cout << "Enter word to insert: ";
             getline(cin, word);
@@ -98,7 +99,7 @@ int main()
                 }
             }
         }
-        else if (choice == 3)
+        else if (choice == '3')
         {
             printLine();
             cout << "Exiting autocomplete. Goodbye.\n";

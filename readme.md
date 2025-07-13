@@ -1,6 +1,6 @@
 # Trie AutoComplete
 
-A simple C++ command-line tool for fast word auto-completion using a Trie data structure.
+A C++ command-line tool for fast word auto-completion using a Trie data structure.
 
 ## Features
 - Instant prefix-based word suggestions
