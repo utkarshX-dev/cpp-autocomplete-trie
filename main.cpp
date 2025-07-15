@@ -14,7 +14,7 @@ void printLine()
 void printMenu()
 {
     printLine();
-    cout << "1. Search for prefix\n";
+    cout << "1. Suggestions for a word\n";
     cout << "2. Insert new word\n";
     cout << "3. Exit\n";
     printLine();
